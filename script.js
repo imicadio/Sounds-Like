@@ -27,7 +27,7 @@ function removeTransition(e){
 	}
 
 const keys = document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // lambda funkcje (parametr) => {ciało funkcji}
 
 window.addEventListener('keydown', playSound);
 

@@ -9,14 +9,26 @@
 </head>
 <body>
 	<section class="one">
-		<div data-key="65" class="key"><kbd>A</kbd><span class="sound">Asia</span></div>
-		<div data-key="83" class="key"><kbd>S</kbd><span class="sound">Sara</span></div>
-		<div data-key="68" class="key"><kbd>D</kbd><span class="sound">Daria</span></div>
+		<div data-key="65" class="key"><kbd>A</kbd><span class="sound">Piano 1</span></div>
+		<div data-key="83" class="key"><kbd>S</kbd><span class="sound">Piano 2</span></div>
+		<div data-key="68" class="key"><kbd>D</kbd><span class="sound">Piano 3</span></div>
+		<div data-key="70" class="key"><kbd>F</kbd><span class="sound">Piano 4</span></div>
+		<div data-key="71" class="key"><kbd>G</kbd><span class="sound">Piano 5</span></div>
+		<div data-key="72" class="key"><kbd>H</kbd><span class="sound">Piano 6</span></div>
+		<div data-key="74" class="key"><kbd>J</kbd><span class="sound">Piano 7</span></div>
+		<div data-key="75" class="key"><kbd>K</kbd><span class="sound">Piano 8</span></div>
+		<div data-key="76" class="key"><kbd>L</kbd><span class="sound">Piano 9</span></div>
 	</div>
 
-	<audio data-key="65" src="./sounds/claps.wav"></audio>
-	<audio data-key="83" src="sounds/hiHat.wav"></audio>
-	<audio data-key="68" src="sounds/claps.wav"></audio>
+	<audio data-key="65" src="http://odur.let.rug.nl/~gilbers/onderwijs/fonologie_2/f2col9/f2c9ratemuziek_files/c7-f-u~1.wav"></audio>
+	<audio data-key="83" src="http://odur.let.rug.nl/~gilbers/onderwijs/fonologie_2/f2col9/f2c9ratemuziek_files/c7-f-u~1.wav"></audio>
+	<audio data-key="68" src="http://www.vibrationdata.com/Kawai_fourth_A_D.mp3"></audio>
+	<audio data-key="70" src="http://www.dms489.com/Concepts_book/listings/Ch_14_Sound/instr_piano.wav"></audio>
+	<audio data-key="71" src="http://ecee.colorado.edu/~mathys/ecen1200/hwcl09/sound3.wav"></audio>
+	<audio data-key="72" src="http://amath.colorado.edu/pub/matlab/music/wav/piano_A3.wav"></audio>
+	<audio data-key="74" src="http://www.vibrationdata.com/piano_F_sharp.mp3"></audio>
+	<audio data-key="75" src="http://odur.let.rug.nl/~gilbers/onderwijs/fonologie_2/f2col9/f2c9ratemuziek_files/c7-f-u~1.wav"></audio>
+	<audio data-key="76" src="http://cd.textfiles.com/mmplus/MEDIA/WAV/EFFECTS/BP_JZZPN.WAV"></audio>
 
 	<script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
@@ -42,4 +54,10 @@ window.document.getElementById() jest taki sam document.getElementById()
 addEventListener(type, listener, useCapture);
 
 document.querySelector() - uzyskuje pierwszy element np. klasę, id
+
+currentTime ustawia pozycję czasową
+
+classList - moża robić CRUDa na klasach czyli dodawać klasy do usuwać itd.
+
+setTimeout(funkcja(), czas) - funkcja wywołująca się z opóźnieniem 
 ---->
